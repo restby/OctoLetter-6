@@ -2,12 +2,10 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- <meta name="color-scheme" content="light dark" />
-  <meta name="supported-color-schemes" content="light dark" /> -->
+  <meta name="color-scheme" content="light dark" />
+  <meta name="supported-color-schemes" content="light dark" />
   <title>Octo Browser</title>
   <style type="text/css">
-    /* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap'); */
-
     table {
       border-spacing: 0;
       mso-cellspacing: 0;
@@ -28,13 +26,14 @@
       font-size: 18px;
     }
 
-    .cover__wrap.full-width,
-    .main-block__background {
+    .cover__wrap,
+    .main-block__img {
       background-color: #1890ff;
     }
 
     @media screen and (max-width: 599.98px) {
-      .full-width img {
+      .full-width img,
+      .main-block__img img {
         width: 100% !important;
         max-width: 100% !important;
       }
@@ -63,11 +62,6 @@
         line-height: 17px !important;
       }
 
-      .main-block__img img {
-        width: 100% !important;
-        max-width: 100% !important;
-      }
-
       .social__wrap p {
         text-align: center;
       }
@@ -81,7 +75,7 @@
     }
 
     /* Custom Dark Mode Colors */
-    /* :root {
+    :root {
       color-scheme: light dark;
       supported-color-schemes: light dark;
     }
@@ -117,7 +111,7 @@
       .footer__wrap span {
         color: #ffffff !important;
       }
-    } */
+    }
   </style>
 
   <!--[if (gte mso 9)|(IE)]>
